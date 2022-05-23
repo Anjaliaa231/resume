@@ -1,0 +1,96 @@
+.container{
+    border: 2px solid black;
+    /* height: 350px; */
+    border-width: 50%;
+    
+    /* display:grid; */
+    margin-left: 900px;
+    padding: 5px;
+    margin-top: 45px;
+    height: 50%;
+    padding: 22px;
+    display: grid;
+    
+}
+.name h3{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size:250%;
+}
+.body h3{
+    border: 2px solid grey;
+    font-weight: bold;
+    background-color: grey;
+}
+.technical h3{ 
+    border: 2px solid grey;
+    background-color: grey;
+    font-weight: bold;
+}
+.internship h3{
+    border: 2px solid grey;
+    background-color: grey;
+    font-weight: bold;
+
+}
+.projects h3{
+    border: 2px solid grey;
+    background-color: grey;
+    font-weight: bold;
+
+}
+.curricular h3{
+    border: 2px solid grey;
+    background-color: grey;
+    font-weight: bold;
+
+}
+@media (max-400px) {
+    .container{
+        border: 2px solid black;
+        /* border-width: 50%; */
+        width:max-content;
+        /* display:grid; */
+        margin-left:0px;
+        padding: 5px;
+        display:grid;
+        margin-top: 45px;
+        height:350px;
+    
+
+    }
+    /* .name h3{
+        margin-top: 25px;
+        font-weight: bold;
+        font-size:250%;
+    }
+    .body h3{
+        border: 2px solid grey;
+        font-weight: bold;
+        background-color: grey;
+    }
+    .technical h3{ 
+        border: 2px solid grey;
+        background-color: grey;
+        font-weight: bold;
+    }
+    .internship h3{
+        border: 2px solid grey;
+        background-color: grey;
+        font-weight: bold;
+    
+    }
+    .projects h3{
+        border: 2px solid grey;
+        background-color: grey;
+        font-weight: bold;
+    
+    }
+    .curricular h3{
+        border: 2px solid grey;
+        background-color: grey;
+        font-weight: bold;
+    
+    }
+     */
+}
